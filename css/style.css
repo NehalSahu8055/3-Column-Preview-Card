@@ -6,20 +6,12 @@
 }
 
 body {
-    /* display:flex; 
+    display:flex; 
     justify-content:center;
     align-items: center;
-    height: 100vh;
-    background-color: blue;
-    box-sizing: border-box; */
+    min-height: 100vh;
+    box-sizing: border-box;
     background-color:hsl(0, 0%, 95%);
-    box-sizing: border-box; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
   }
   .container{
     display: flex;
